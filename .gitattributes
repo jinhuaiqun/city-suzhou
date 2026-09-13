@@ -1,0 +1,17 @@
+# 统一按文本处理，仓库内一律存 LF
+* text=auto eol=lf
+
+# 显式声明二进制，避免被当作文本改写行尾
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.webp binary
+*.pdf  binary
+*.xlsx binary
+*.docx binary
+*.zip  binary
+
+# Markdown 明确走 LF
+*.md text eol=lf
